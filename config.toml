@@ -1,0 +1,45 @@
+baseURL = "/"
+languageCode = "en-gb"
+theme = "ghostwriter"
+Title = "Die! Boredom! Die!"
+DisqusShortname = "die-boredom-die"
+
+[Params]
+    intro = true
+    headline = "Recent Articles"
+    logo = "header.png"
+    title = "beansy"
+    description = ""
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = false
+    shareLinkedIn = false
+    dateFormat = "2 Jan 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Author]
+    name = "D!B!D!"
+    profile = "/page/about"
+
+[Taxonomies]
+    tag = "tags"
+
+[[menu.main]]
+    name = "Articles"
+    url = "/"
+    weight = 1
+
+#[[menu.main]]
+#    name = "Contact"
+#    url = "/page/contact/"
+#    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
