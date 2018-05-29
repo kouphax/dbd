@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+<div id="post-index" class="container">
+
+
+    <img class="post-header-image" src="/post-header.png"/>
+    <header class="post-header">
+        <p>Recorded list of plays by D!B!D!</p>
+    </header>
+    {{ $pag := .Paginate .Data.Pages }}
+    <ol class="post-list">
+          <table>
+            <thead>
+              <tr>
+                <td>Date</td>
+                <td>Game</td>
+                <td>Players</td>
+                <td>Location</td>
+              </tr>
+            </thead>
+            <tbody>
+        {{ range $pag.Pages }}
+              <tr>
+                <td>{{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}</td>
+                <td><a href="https://boardgamegeek.com/boardgame/{{ .Params.Game.Id }}" target="_blank">{{ .Params.Game.Name }}</a></td>
+                <td>{{ len .Params.Players }}</td>
+                <td>{{ .Params.Location }}</td>
+              </tr>
+        {{ end }}
+            </tbody>
+          </table>
+    </ol>
+
+    <div class="post-navigation">
+        {{ partial "pagination.html" . }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

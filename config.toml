@@ -1,6 +1,5 @@
 baseURL = "https://dieboredomdie.co.uk/"
 languageCode = "en-gb"
-theme = "ghostwriter"
 Title = "Die! Boredom! Die!"
 DisqusShortname = "die-boredom-die"
 googleAnalytics = "UA-19143623-19"
@@ -23,7 +22,7 @@ paginate = 30
 
 [Author]
     name = "D!B!D!"
-    profile = "/page/about"
+    profile = "/about"
 
 [Taxonomies]
     tag = "tags"
@@ -40,12 +39,17 @@ paginate = 30
 
 [[menu.main]]
     name = "About"
-    url = "/page/about/"
+    url = "/about/"
     weight = 4
 
 [[menu.main]]
     name = "Plays"
-    url = "/play/"
+    url = "/plays/"
+    weight = 4
+
+[[menu.main]]
+    name = "Stats"
+    url = "/stats/"
     weight = 4
 
 [Permalinks]

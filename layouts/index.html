@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="site-title-wrapper">
+                        <a class="site-logo" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}">
+                          <img src="/header.png" alt="{{ .Site.Title }}" />
+                        </a>
+                </div>
+
+            </div>
+        </header>
+    {{ partial "intro.html" . }}
+
+    <ol class="post-list">
+        {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+        {{ range $pag.Pages }}
+            {{ partial "post-stub.html" . }}
+        {{ end }}
+    </ol>
+
+    <div class="post-navigation">
+        {{ partial "pagination.html" . }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

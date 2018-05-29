@@ -1,0 +1,6 @@
+<li> <a href="/"> <img src="/navicon.png" /> </a> </li>
+{{ range .Site.Menus.main.ByWeight }}
+    <li class="menu-item">
+        <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+{{ end }}

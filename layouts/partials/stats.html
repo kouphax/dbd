@@ -1,0 +1,77 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+    <img class="post-header-image" src="/post-header.png"/>
+    <article class="post-container">
+        {{ partial "page-header.html" . }}
+
+<style>
+  .chart-bar {
+    border-radius: 0px 30px 30px 0px;
+    background-color: #555;
+  }
+  h1.stat-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+  }
+  .filter {
+    text-align: center;
+  }
+</style>
+
+<div class="filter">
+  <a href="{{ .Site.BaseURL }}stats/" class="button">All Time</a>
+  {{ range $year := .Params.Years }}
+  <a href="{{ $.Site.BaseURL }}stats/{{ $year }}" class="button">{{ $year }}</a>
+  {{ end }}
+</div>
+<h1 class="stat-header">Games Played</h1>
+<table>
+  <tbody>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:100%">&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:70%">&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:60%">&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:20%">&nbsp;</div></td>
+    </tr>
+  </tbody>
+</table>
+<h1 class="stat-header">Games Played</h1>
+<table>
+  <tbody>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:100%">&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:70%">&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:60%">&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td style="width:25%">epic monster butter</td>
+      <td><div class="chart-bar" style="width:20%">&nbsp;</div></td>
+    </tr>
+  </tbody>
+</table>
+    </article>
+</div>
+
+{{ partial "footer.html" . }}
