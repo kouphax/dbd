@@ -125,15 +125,32 @@ class App {
             return name.toLowerCase()
         });
 
-        rm.rmdirRecursiveSync('../content/play')
+        rm.rmdirRecursiveSync('../content/plays')
+        rm.rmdirRecursiveSync('../content/stats')
 
-        fs.mkdirSync('../content/play')
+        fs.mkdirSync('../content/plays')
+        fs.mkdirSync('../content/stats')
 
         _.each(plays, play => {
-            fs.writeFileSync(`../content/play/${play.id}.md`, JSON.stringify(play, null, 2) + "\n")
+            fs.writeFileSync(`../content/plays/${play.id}.md`, JSON.stringify(play, null, 2) + "\n")
         })
 
-        fs.closeSync(fs.openSync('../content/play/_index.md', 'w'));
+        fs.closeSync(fs.openSync('../content/plays/_index.md', 'w'));
+
+
+        const years = _.chain(stats.periods.yearly)
+            .keys()
+            .map(x => parseInt(x))
+            .sortBy(_.identity)
+            .value()
+
+        const allTimeStats = {
+            "title": "Play Stats",
+            "type": "stats",
+            years
+        }
+        fs.writeFileSync(`../content/stats/_index.md`, JSON.stringify(allTimeStats, null, 2) + "\n")
+
 
 
 
