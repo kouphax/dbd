@@ -1,0 +1,40 @@
+---
+- name: Boardathon 2018
+  period:
+    from: 2018-01-01
+    to: 2018-12-31
+  type: play-x-games-y-times
+  targets:
+    games: 10
+    times: 10
+  players:
+    all:
+      - James
+      - Emma
+  boardgames:
+    include:
+      - { id: 173346, name: 7 Wonders Duel }
+      - { id: 230802, name: Azul }
+      - { id: 822, name: Carcasonne }
+      - { id: 224037, name: Codenames Duet }
+      - { id: 197455, name: Dice Heist }
+      - { id: 54043, name: Jaipur }
+      - { id: 192074, name: Odin's Ravens }
+      - { id: 164928, name: Orléans }
+      - { id: 199561, name: Sagrada }
+      - { id: 70919, name: Takenoko }
+- name: Famathon
+  period:
+    from: 2018-01-01
+    to: 2018-12-31
+  type: x-plays
+  targets:
+    plays: 100
+  players:
+    all:
+      - James
+      - Emma
+      - Ollie
+      - Nate
+
+

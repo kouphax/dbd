@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>{{ period }}</title>
+        <style>
+            body {
+                font-family: 'Noto Sans', sans-serif;
+                color: #564a50;
+                background-color: #C2EABA;
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-column-gap: 2em;
+                grid-row-gap: 2em;
+                max-width: 960px;
+                margin: 0 auto;
+                font-size: 1.2em;
+            }
+
+            header {
+                grid-column:span 12;
+                text-align: center;
+            }
+
+            section:nth-child(-n+5) h3 {
+                font-size: 4em;
+                text-align: center;
+            }
+
+
+            section#dayOfWeek > section{
+                display:grid;
+                margin: 2em 2em;
+                grid-template-columns: repeat(7, 1fr);
+                grid-column-gap: 2em;
+                grid-row-gap: 2em;
+            }
+
+            section#dayOfWeek .values .value {
+                margin: 0 1em;
+                background-color: #C2EABA;
+                align-self: end;
+            }
+
+
+            section#dayOfWeek > section section{
+                grid-column:span 1;
+            }
+
+            section#monthOfYear > section{
+                display:grid;
+                margin: 1em 1em;
+                grid-template-columns: repeat(12, 1fr);
+                grid-column-gap: 0em;
+                grid-row-gap: 0em;
+            }
+
+            section#monthOfYear .values .value {
+                margin: 0 1em;
+                background-color: #C2EABA;
+                align-self: end;
+            }
+
+            section#monthOfYear > section section{
+                grid-column:span 1;
+            }
+
+            section {
+                background-color: #E6EFE9;
+                grid-column:span 12;
+                border-radius: 10px;
+            }
+
+
+            section:nth-child(-n+4)  {
+                grid-column: span 4;
+                text-align: center;
+            }
+
+            section ol li:nth-child(n+11) {
+                display:none;
+            }
+
+            section h2 {
+                text-align: center;
+            }
+
+            footer {
+                grid-column: span 12;
+            }
+
+            header h1 {
+                font-size: 4em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>boardstats.io</h1>
+            <h2>{{ boardgameName id }}</h2>
+            <h3>
+                {{#boardgame.cooperative}}
+                    CO-OP
+                {{/boardgame.cooperative}}
+                {{^boardgame.cooperative}}
+                    PvP
+                {{/boardgame.cooperative}}
+            </h3>
+        </header>
+        <section class="high">
+            <h2>Total Plays</h2>
+            <h3>
+                <a href="#">{{ report.playCount }}</a>
+            </h3>
+        </section>
+        <section class="high">
+            <h2>Last Played</h2>
+            <h3>
+                <a href="#">{{ report.period.to }}</a>
+            </h3>
+        </section>
+        <section class="high">
+            <h2>First Played</h2>
+            <h3>
+                <a href="#">{{ report.period.from }}</a>
+            </h3>
+        </section>
+        <section>
+            <h2>Champion of the Fucking Ages</h2>
+            <h3>{{ report.weightedWinCount.[0].[0] }}</h3>
+        </section>
+        <section class="chart">
+            <h2>Player Count</h2>
+            <ol>
+                {{#report.playerCount}}
+                    <li data-value="{{ this.[1] }}">{{ this.[0] }}({{ this.[1] }})</li>
+                {{/report.playerCount}}
+            </ol>
+        </section>
+        <section class="chart">
+            <h2>Play Count By Player</h2>
+            <ol>
+                {{#report.playCountByPlayer}}
+                    <li data-value="{{ this.[1] }}">{{ this.[0] }} ({{ this.[1] }})</li>
+                {{/report.playCountByPlayer}}
+            </ol>
+        </section>
+        <section class="chart">
+            <h2>Win Count By Player</h2>
+            <ol>
+                {{#report.winCountByPlayer}}
+                    <li data-value="{{ this.[1] }}">{{ this.[0] }} ({{ this.[1] }})</li>
+                {{/report.winCountByPlayer}}
+            </ol>
+        </section>
+        <section class="chart">
+            <h2>Weighted Win Count By Player</h2>
+            <ol>
+                {{#report.weightedWinCount}}
+                    <li data-value="{{ this.[1] }}">{{ this.[0] }} ({{ this.[1] }})</li>
+                {{/report.weightedWinCount}}
+            </ol>
+        </section>
+        <section >
+            <h2>Play Count Per Day of Week</h2>
+            <section id="dayOfWeek">
+                <section class="values">
+                    {{#report.playCountPerDayOfWeek}}
+                        <section class="value" data-value="{{ this.[1] }}">{{ this.[1] }}</section>
+                    {{/report.playCountPerDayOfWeek}}
+                </section>
+                <section class="labels">
+                    {{#report.playCountPerDayOfWeek}}
+                        <section>{{ this.[0] }}</section>
+                    {{/report.playCountPerDayOfWeek}}
+                </section>
+            </section>
+        </section>
+        <section >
+            <h2>Play Count Per Month</h2>
+            <section id="monthOfYear">
+                <section class="values">
+                    {{#report.playCountPerMonth}}
+                        <section class="value" data-value="{{ this.[1] }}">{{ this.[1] }}</section>
+                    {{/report.playCountPerMonth}}
+                </section>
+                <section class="labels">
+                    {{#report.playCountPerMonth}}
+                        <section>{{ this.[0] }}</section>
+                    {{/report.playCountPerMonth}}
+                </section>
+            </section>
+        </section>
+        <section>
+            <h2>Play Count Per Day</h2>
+            <ol>
+                {{#report.playCountPerDay}}
+                    <li data-value="{{ this.[1] }}">{{ this.[0] }} ({{ this.[1] }})</li>
+                {{/report.playCountPerDay}}
+            </ol>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>{{ period }}</title>
+        <style>
+            body {
+                font-family: 'Noto Sans', sans-serif;
+                color: #564a50;
+                background-color: #C2EABA;
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-column-gap: 2em;
+                grid-row-gap: 2em;
+                max-width: 960px;
+                margin: 0 auto;
+                font-size: 1.2em;
+            }
+
+            header {
+                grid-column:span 12;
+                text-align: center;
+            }
+
+            section {
+                background-color: #E6EFE9;
+                grid-column:span 12;
+                border-radius: 10px;
+            }
+
+            footer {
+                grid-column: span 12;
+            }
+
+            header h1 {
+                font-size: 4em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>boardstats.io</h1>
+            <h2>Plays</h2>
+        </header>
+        {{#raw}}
+        <section >
+            <h2>{{ game.name }}</h2>
+            <h3>{{ date }} @ {{ location }}</h3>
+            <h4>{{ players.length }}</h4>
+        </section>
+        {{/raw}}
+    </body>
+</html>

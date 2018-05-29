@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>{{ period }}</title>
+        <style>
+            body {
+                font-family: 'Noto Sans', sans-serif;
+                color: #564a50;
+                background-color: #C2EABA;
+                display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-column-gap: 2em;
+                grid-row-gap: 2em;
+                max-width: 960px;
+                margin: 0 auto;
+                font-size: 1.2em;
+            }
+
+            header {
+                grid-column:span 12;
+                text-align: center;
+            }
+
+            section h3 {
+                font-size: 4em;
+                text-align: center;
+            }
+
+
+            section {
+                background-color: #E6EFE9;
+                grid-column:span 12;
+                border-radius: 10px;
+            }
+
+            section h2 {
+                text-align: center;
+            }
+
+            footer {
+                grid-column: span 12;
+            }
+
+            header h1 {
+                font-size: 4em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>boardstats.io</h1>
+            <h2>Games</h2>
+        </header>
+        <section class="chart" >
+            <h2>Play Count By Game</h2>
+            <ol>
+            {{#plays.playCountByGame}}
+                <li data-value="{{ this.[1] }}">
+                    <a href="game/{{ this.[0] }}.html">{{ boardgameName this.[0] }}</a> ({{ this.[1] }})
+                </li>
+            {{/plays.playCountByGame}}
+            </ol>
+        </section>
+    </body>
+</html>

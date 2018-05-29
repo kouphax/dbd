@@ -4,6 +4,7 @@ theme = "ghostwriter"
 Title = "Die! Boredom! Die!"
 DisqusShortname = "die-boredom-die"
 googleAnalytics = "UA-19143623-19"
+paginate = 30
 
 [Params]
     intro = true
@@ -40,6 +41,11 @@ googleAnalytics = "UA-19143623-19"
 [[menu.main]]
     name = "About"
     url = "/page/about/"
+    weight = 4
+
+[[menu.main]]
+    name = "Plays"
+    url = "/play/"
     weight = 4
 
 [Permalinks]
