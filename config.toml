@@ -3,6 +3,7 @@ languageCode = "en-gb"
 theme = "ghostwriter"
 Title = "Die! Boredom! Die!"
 DisqusShortname = "die-boredom-die"
+googleAnalytics = "UA-19143623-19"
 
 [Params]
     intro = true
