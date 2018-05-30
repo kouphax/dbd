@@ -1,5 +1,5 @@
 {
-  "title": "Play Stats for All Time",
+  "title": "Play Stats for 2018",
   "type": "stats",
   "years": [
     2018,

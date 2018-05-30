@@ -226,7 +226,7 @@ class App {
         const allTimeStats = projectStats(stats.overall.plays)
 
         _.each(years, year => {
-            const s = projectStats(stats.periods.yearly[`${year}`].plays)
+            const s = projectStats(stats.periods.yearly[`${year}`].plays, year)
             fs.mkdirSync(`../content/stats/${year}`)
             fs.writeFileSync(`../content/stats/${year}/index.md`, JSON.stringify(s, null, 2) + "\n")
         })
