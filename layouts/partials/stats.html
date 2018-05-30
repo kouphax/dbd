@@ -7,8 +7,13 @@
 
 <style>
   .chart-bar {
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 0px 0px 0px;
     background-color: #555;
+      color: #fff;
+        padding: 5px;
+          font-size:0.8em;
+            min-width:40px;
+              font-weight: bold;
   }
   h1.stat-header {
     display: block;
@@ -21,6 +26,26 @@
   .filter {
     text-align: center;
   }
+
+  table {
+    table-layout:fixed;
+  }
+  td.bar-column {
+    width: 60%;
+  }
+
+  .stats-table tr td {
+    text-align: center;
+      background-color: #fff!important;
+  }
+
+  .stats-table h1 {
+    font-size: 8em;
+        margin:0px;
+  }
+  .stats-table h2 {
+    font-size: 2em;
+  }
 </style>
 
 <div class="filter">
@@ -29,48 +54,38 @@
   <a href="{{ $.Site.BaseURL }}stats/{{ $year }}" class="button">{{ $year }}</a>
   {{ end }}
 </div>
-<h1 class="stat-header">Games Played</h1>
-<table>
-  <tbody>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:100%">&nbsp;</div></td>
-    </tr>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:70%">&nbsp;</div></td>
-    </tr>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:60%">&nbsp;</div></td>
-    </tr>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:20%">&nbsp;</div></td>
-    </tr>
-  </tbody>
-</table>
-<h1 class="stat-header">Games Played</h1>
-<table>
-  <tbody>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:100%">&nbsp;</div></td>
-    </tr>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:70%">&nbsp;</div></td>
-    </tr>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:60%">&nbsp;</div></td>
-    </tr>
-    <tr>
-      <td style="width:25%">epic monster butter</td>
-      <td><div class="chart-bar" style="width:20%">&nbsp;</div></td>
-    </tr>
-  </tbody>
-</table>
+
+{{ range $item := .Params.Items }}
+  {{ if eq $item.Type "bar" }}
+  <h1 class="stat-header">{{ $item.Title }}</h1>
+  <table style="width:100%">
+    <tbody>
+      {{ range $row := $item.Items }}
+        <tr>
+          <td class="name-column">{{ $row.Name }}</td>
+          <td class="bar-column"><div class="chart-bar" style="width:{{ $row.Pct }}%">{{ $row.Count }}</div></td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  {{ else if eq $item.Type "stats" }}
+  <table style="100%" class="stats-table">
+    <tbody>
+      <tr></tr>
+      <tr>
+      {{ range $row := $item.Items }}
+        <td><h2>{{ $row.Title  }}</h2></td>
+      {{ end }}
+      </tr>
+      <tr>
+      {{ range $row := $item.Items }}
+        <td><h1>{{ $row.Value  }}</h1></td>
+      {{ end }}
+      </tr>
+    </tbody>
+  </table>
+  {{ end }}
+{{ end }}
     </article>
 </div>
 

@@ -36,6 +36,7 @@ class BggApi {
                     name: play.item.name,
                     id: play.item.objectid
                 }
+                play.id = "" + play.id
 
                 delete play.item
                 return play

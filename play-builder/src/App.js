@@ -89,11 +89,13 @@ function dump(stuff) {
     //fs.writeFileSync('dump.json', JSON.stringify(stuff))
 }
 
+
+
 class App {
     static async main(username) {
 
         const api = new BggApi()
-        const user = await api.user(username)
+        //const user = await api.user(username)
         const plays = await api.plays(username)
 
         //fs.writeFileSync('plays.json', JSON.stringify(plays))
@@ -117,9 +119,10 @@ class App {
 
         // dump(boardgames)
 
-        Handlebars.registerHelper('boardgameName', function(id) {
+        function boardgameName(id) {
             return _.find(boardgames, game => ("" + game.id) === id).name
-        });
+        }
+        Handlebars.registerHelper('boardgameName', boardgameName);
 
         Handlebars.registerHelper('playerId', function(name) {
             return name.toLowerCase()
@@ -141,14 +144,92 @@ class App {
         const years = _.chain(stats.periods.yearly)
             .keys()
             .map(x => parseInt(x))
-            .sortBy(_.identity)
+            .sortBy(x => -x)
             .value()
 
-        const allTimeStats = {
-            "title": "Play Stats",
-            "type": "stats",
-            years
+        function projectStats(plays, year) {
+            return {
+                "title": "Play Stats for " + (year ? year : "All Time"),
+                "type": "stats",
+                years,
+                items: [{
+                    type: "stats",
+                    items: [{
+                        title: "H-Index",
+                        value: plays.hIndex
+                    },{
+                        title: "Plays",
+                        value: plays.playCount
+                    },{
+                        title: "Games",
+                        value: plays.gameCount
+                    }]
+                },{
+                    title: "Games Played",
+                    type: "bar",
+                    items: _.map(plays.playCountByGame, p => {
+                        return {
+                            id: p[0],
+                            count: p[1],
+                            name: boardgameName(p[0]),
+                            pct: Math.trunc((p[1]/plays.playCountByGame[0][1])*100)
+                        }
+                    }).slice(0,10)
+                },{
+                    title: "Games Played by Player",
+                    type: "bar",
+                    items: _.map(plays.playCountByPlayer, p => {
+                        return {
+                            id: p[0],
+                            count: p[1],
+                            name: p[0],
+                            pct: Math.trunc((p[1]/plays.playCountByPlayer[0][1])*100)
+                        }
+                    }).slice(0,10)
+                },{
+                    title: "Player Count",
+                    type: "bar",
+                    items: _.map(plays.playerCount, p => {
+                        return {
+                            id: p[0],
+                            count: p[1],
+                            name: p[0],
+                            pct: Math.trunc((p[1]/plays.playerCount[0][1])*100)
+                        }
+                    }).slice(0,10)
+                },{
+                    title: "Play Count by Day",
+                    type: "bar",
+                    items: _.map(plays.playCountPerDayOfWeek, p => {
+                        return {
+                            id: p[0],
+                            count: p[1],
+                            name: p[0],
+                            pct: Math.trunc((p[1]/ _.max(plays.playCountPerDayOfWeek, x => x[1])[1])*100)
+                        }
+                    })
+                }/*,{
+                    title: "Play Count by Month",
+                    type: "bar",
+                    items: _.map(stats.overall.plays.playCountPerMonth, p => {
+                        return {
+                            id: p[0],
+                            count: p[1],
+                            name: p[0],
+                            pct: Math.trunc((p[1]/ _.max(plays.playCountPerMonth, x => x[1])[1])*100)
+                        }
+                    })
+                }*/]
+            }
         }
+
+        const allTimeStats = projectStats(stats.overall.plays)
+
+        _.each(years, year => {
+            const s = projectStats(stats.periods.yearly[`${year}`].plays)
+            fs.mkdirSync(`../content/stats/${year}`)
+            fs.writeFileSync(`../content/stats/${year}/index.md`, JSON.stringify(s, null, 2) + "\n")
+        })
         fs.writeFileSync(`../content/stats/_index.md`, JSON.stringify(allTimeStats, null, 2) + "\n")
 
 
