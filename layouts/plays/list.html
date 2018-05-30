@@ -22,7 +22,7 @@
         {{ range $pag.Pages }}
               <tr>
                 <td>{{ dateFormat (default "Mon, Jan 2, 2006" $.Site.Params.dateFormat) .Date }}</td>
-                <td><a href="{{ $.Site.BaseURL}}plays/{{ .Params.Id }}" target="_blank">{{ .Params.Game.Name }}</a></td>
+                <td><a href="{{ $.Site.BaseURL}}plays/{{ .Params.Id }}">{{ .Params.Game.Name }}</a></td>
                 <td>{{ len .Params.Players }}</td>
                 <td>{{ .Params.Location }}</td>
               </tr>

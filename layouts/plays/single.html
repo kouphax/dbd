@@ -7,10 +7,43 @@
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">{{ .Params.Game.Name }}</h1>
       <p class="post-date">
-          <span>Played <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}</time></span>
+          <span>Played <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ dateFormat (default "Mon, Jan 2, 2006" $.Site.Params.dateFormat) .Date }}</time></span>
       </p>
     </header>
-    <a href="https://boardgamegeek.com/boardgame/{{ .Params.Game.Id }}" target="_blank">View on Board Game Geek</a>
+
+<style>
+  .player {
+    line-height: 1.2em;
+  }
+</style>
+    <table>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>{{ .Params.Game.Name }}</td>
+        </tr>
+        <tr>
+          <td>BGG Link</td>
+          <td><a href="https://boardgamegeek.com/boardgame/{{ .Params.Game.Id }}" target="_blank">https://boardgamegeek.com/boardgame/{{ .Params.Game.Id }}</a></td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td><time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ dateFormat (default "Mon, Jan 2, 2006" $.Site.Params.dateFormat) .Date }}</time></td>
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>{{ .Params.Location }}</td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">Players</td>
+          <td>
+            {{ range $player := .Params.Players }}
+              <div class="player"> {{ $player.Name }} {{ if $player.Win }} (Winner) {{ end }} {{ if $player.FirstTimePlaying }} (First Timer) {{ end }} </div>
+            {{ end }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
 </div>
 

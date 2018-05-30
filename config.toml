@@ -9,7 +9,7 @@ paginate = 30
     intro = true
     headline = "Recent Articles"
     logo = "header.png"
-    title = "beansy"
+    title = "Die! Boredom! Die!"
     description = ""
     opengraph = true
     shareTwitter = true
@@ -19,6 +19,7 @@ paginate = 30
     dateFormat = "2 Jan 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
+    instagram = "https://www.instagram.com/dieboredomdie/"
 
 [Author]
     name = "D!B!D!"
