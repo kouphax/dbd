@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 330
+          "value": 331
         },
         {
           "title": "Games",
@@ -108,7 +108,7 @@
         },
         {
           "id": "Emma",
-          "count": 103,
+          "count": 104,
           "name": "Emma",
           "pct": 32
         },
@@ -126,7 +126,7 @@
         },
         {
           "id": "Ollie",
-          "count": 69,
+          "count": 70,
           "name": "Ollie",
           "pct": 21
         },
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 114,
+          "count": 115,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,7 +170,7 @@
           "id": "3 Players",
           "count": 103,
           "name": "3 Players",
-          "pct": 90
+          "pct": 89
         },
         {
           "id": "4 Players",
@@ -222,9 +222,9 @@
         },
         {
           "id": "Wednesday",
-          "count": 39,
+          "count": 40,
           "name": "Wednesday",
-          "pct": 50
+          "pct": 51
         },
         {
           "id": "Thursday",

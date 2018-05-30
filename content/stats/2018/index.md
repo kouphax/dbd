@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 66
+          "value": 67
         },
         {
           "title": "Games",
@@ -47,6 +47,12 @@
           "pct": 66
         },
         {
+          "id": "210295",
+          "count": 5,
+          "name": "Lightseekers",
+          "pct": 55
+        },
+        {
           "id": "227456",
           "count": 5,
           "name": "Escape the Dark Castle",
@@ -57,12 +63,6 @@
           "count": 5,
           "name": "Fast Forward: FEAR",
           "pct": 55
-        },
-        {
-          "id": "210295",
-          "count": 4,
-          "name": "Lightseekers",
-          "pct": 44
         },
         {
           "id": "27225",
@@ -102,9 +102,9 @@
         },
         {
           "id": "Emma",
-          "count": 44,
+          "count": 45,
           "name": "Emma",
-          "pct": 67
+          "pct": 69
         },
         {
           "id": "Bill",
@@ -113,16 +113,16 @@
           "pct": 27
         },
         {
+          "id": "Ollie",
+          "count": 17,
+          "name": "Ollie",
+          "pct": 26
+        },
+        {
           "id": "Chris",
           "count": 17,
           "name": "Chris",
           "pct": 26
-        },
-        {
-          "id": "Ollie",
-          "count": 16,
-          "name": "Ollie",
-          "pct": 24
         },
         {
           "id": "Nate",
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 26,
+          "count": 27,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,13 +170,13 @@
           "id": "4 Players",
           "count": 21,
           "name": "4 Players",
-          "pct": 80
+          "pct": 77
         },
         {
           "id": "3 Players",
           "count": 18,
           "name": "3 Players",
-          "pct": 69
+          "pct": 66
         },
         {
           "id": "5 Players",
@@ -210,9 +210,9 @@
         },
         {
           "id": "Wednesday",
-          "count": 11,
+          "count": 12,
           "name": "Wednesday",
-          "pct": 68
+          "pct": 75
         },
         {
           "id": "Thursday",
