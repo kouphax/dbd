@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 67
+          "value": 69
         },
         {
           "title": "Games",
@@ -41,16 +41,16 @@
           "pct": 88
         },
         {
+          "id": "210295",
+          "count": 7,
+          "name": "Lightseekers",
+          "pct": 77
+        },
+        {
           "id": "224037",
           "count": 6,
           "name": "Codenames Duet",
           "pct": 66
-        },
-        {
-          "id": "210295",
-          "count": 5,
-          "name": "Lightseekers",
-          "pct": 55
         },
         {
           "id": "227456",
@@ -96,37 +96,37 @@
       "items": [
         {
           "id": "James",
-          "count": 65,
+          "count": 67,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Emma",
-          "count": 45,
+          "count": 47,
           "name": "Emma",
-          "pct": 69
+          "pct": 70
+        },
+        {
+          "id": "Ollie",
+          "count": 18,
+          "name": "Ollie",
+          "pct": 26
         },
         {
           "id": "Bill",
           "count": 18,
           "name": "Bill",
-          "pct": 27
-        },
-        {
-          "id": "Ollie",
-          "count": 17,
-          "name": "Ollie",
           "pct": 26
         },
         {
           "id": "Chris",
           "count": 17,
           "name": "Chris",
-          "pct": 26
+          "pct": 25
         },
         {
           "id": "Nate",
-          "count": 13,
+          "count": 14,
           "name": "Nate",
           "pct": 20
         },
@@ -152,7 +152,7 @@
           "id": "Sandra",
           "count": 4,
           "name": "Sandra",
-          "pct": 6
+          "pct": 5
         }
       ]
     },
@@ -162,21 +162,21 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 27,
+          "count": 28,
           "name": "2 Players",
           "pct": 100
         },
         {
           "id": "4 Players",
-          "count": 21,
+          "count": 22,
           "name": "4 Players",
-          "pct": 77
+          "pct": 78
         },
         {
           "id": "3 Players",
           "count": 18,
           "name": "3 Players",
-          "pct": 66
+          "pct": 64
         },
         {
           "id": "5 Players",
@@ -210,9 +210,9 @@
         },
         {
           "id": "Wednesday",
-          "count": 12,
+          "count": 13,
           "name": "Wednesday",
-          "pct": 75
+          "pct": 81
         },
         {
           "id": "Thursday",
@@ -222,9 +222,9 @@
         },
         {
           "id": "Friday",
-          "count": 4,
+          "count": 5,
           "name": "Friday",
-          "pct": 25
+          "pct": 31
         },
         {
           "id": "Saturday",

@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 331
+          "value": 333
         },
         {
           "title": "Games",
@@ -83,10 +83,10 @@
           "pct": 17
         },
         {
-          "id": "43443",
-          "count": 6,
-          "name": "Castle Panic",
-          "pct": 15
+          "id": "210295",
+          "count": 7,
+          "name": "Lightseekers",
+          "pct": 17
         }
       ]
     },
@@ -96,7 +96,7 @@
       "items": [
         {
           "id": "James",
-          "count": 319,
+          "count": 321,
           "name": "James",
           "pct": 100
         },
@@ -108,9 +108,9 @@
         },
         {
           "id": "Emma",
-          "count": 104,
+          "count": 106,
           "name": "Emma",
-          "pct": 32
+          "pct": 33
         },
         {
           "id": "Bill",
@@ -126,13 +126,13 @@
         },
         {
           "id": "Ollie",
-          "count": 70,
+          "count": 71,
           "name": "Ollie",
-          "pct": 21
+          "pct": 22
         },
         {
           "id": "Nate",
-          "count": 67,
+          "count": 68,
           "name": "Nate",
           "pct": 21
         },
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 115,
+          "count": 116,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,11 +170,11 @@
           "id": "3 Players",
           "count": 103,
           "name": "3 Players",
-          "pct": 89
+          "pct": 88
         },
         {
           "id": "4 Players",
-          "count": 92,
+          "count": 93,
           "name": "4 Players",
           "pct": 80
         },
@@ -222,9 +222,9 @@
         },
         {
           "id": "Wednesday",
-          "count": 40,
+          "count": 41,
           "name": "Wednesday",
-          "pct": 51
+          "pct": 53
         },
         {
           "id": "Thursday",
@@ -234,9 +234,9 @@
         },
         {
           "id": "Friday",
-          "count": 21,
+          "count": 22,
           "name": "Friday",
-          "pct": 27
+          "pct": 28
         },
         {
           "id": "Saturday",
