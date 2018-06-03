@@ -33,7 +33,8 @@ So, that's the rough overview but how does it play?  Well, pretty slick.  The si
 
 The component quality is great.  We got the 30th anniversary edition, the board is a nice matt printing, the meeples are basic plastic but solid enough, the boats, shark, whales and sea monsters are plain wood and the tiles are nice hefty cardboard.
 
-If I had to level any sort of criticism against it I'd say that there is a still a fairly large element of luck involved. Getting a bad run of tiles can really leave you with a lot of dead meeples and it can be rather frustrating.  That said this is offset slightly by the fact no one really knows how far ahead or behind they are because of the different point values for each meeple.  Unless there is a massive discrepancy between the number of meeples saved per player it's still anyone’s game and the suspense adds to the fun.  Is there a chance it could get repeitive?  Perhaps but I haven't really played it enough to say for sure.
+If I had to level any sort of criticism against it I'd say that there is a still a fairly large element of luck involved. Getting a bad run of tiles can really leave you with a lot of dead meeples and it can be rather frustrating.  That said this is offset slightly by the fact no one really knows how far ahead or behind they are because of the different point values for each meeple.  Unless there is a massive discrepancy between the number of meeples saved per player it's still anyone’s game and the suspense adds to the fun.  Is there a chance it could get repetitive?  Perhaps but I haven't really played it enough to say for sure.
 
-All in everyone at D!B!D! would recommend this game and we will certainly be playing more of it in the future.
+All in all, everyone at D!B!D! would recommend this game and we will certainly be playing more of it in the future.
 
+<img src="/4outof6.png" alt="4 out of 6" style="width:100%"/>
