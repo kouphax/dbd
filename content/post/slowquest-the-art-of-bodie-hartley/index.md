@@ -53,3 +53,6 @@ Awwww yeah.  I wanted to get a small commissioned piece for each member of the f
 ![Commissioned pieces](commission.jpeg)
 
 These bad boys are going up, pride of place, in the games corner of our house.
+
+- [Slowquest Store](http://slowquest.bigcartel.com/)
+- [Slowquest Instagram](https://www.instagram.com/bodieh/)
