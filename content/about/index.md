@@ -1,5 +1,4 @@
 +++
-title = "About D!B!D!"
 date = 2015-04-03T02:13:50Z
 author = "D!B!D!"
 +++
