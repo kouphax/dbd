@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 69
+          "value": 72
         },
         {
           "title": "Games",
@@ -35,22 +35,22 @@
           "pct": 100
         },
         {
+          "id": "210295",
+          "count": 9,
+          "name": "Lightseekers",
+          "pct": 100
+        },
+        {
           "id": "198522",
           "count": 8,
           "name": "Archer: Once You Go Blackmail...",
           "pct": 88
         },
         {
-          "id": "210295",
-          "count": 7,
-          "name": "Lightseekers",
-          "pct": 77
-        },
-        {
           "id": "224037",
-          "count": 6,
+          "count": 7,
           "name": "Codenames Duet",
-          "pct": 66
+          "pct": 77
         },
         {
           "id": "227456",
@@ -96,39 +96,39 @@
       "items": [
         {
           "id": "James",
-          "count": 67,
+          "count": 70,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Emma",
-          "count": 47,
+          "count": 50,
           "name": "Emma",
-          "pct": 70
+          "pct": 71
         },
         {
           "id": "Ollie",
-          "count": 18,
+          "count": 19,
           "name": "Ollie",
-          "pct": 26
+          "pct": 27
         },
         {
           "id": "Bill",
           "count": 18,
           "name": "Bill",
-          "pct": 26
+          "pct": 25
         },
         {
           "id": "Chris",
           "count": 17,
           "name": "Chris",
-          "pct": 25
+          "pct": 24
         },
         {
           "id": "Nate",
-          "count": 14,
+          "count": 15,
           "name": "Nate",
-          "pct": 20
+          "pct": 21
         },
         {
           "id": "Nick",
@@ -162,21 +162,21 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 28,
+          "count": 30,
           "name": "2 Players",
           "pct": 100
         },
         {
           "id": "4 Players",
-          "count": 22,
+          "count": 23,
           "name": "4 Players",
-          "pct": 78
+          "pct": 76
         },
         {
           "id": "3 Players",
           "count": 18,
           "name": "3 Players",
-          "pct": 64
+          "pct": 60
         },
         {
           "id": "5 Players",
@@ -192,7 +192,7 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 16,
+          "count": 17,
           "name": "Sunday",
           "pct": 100
         },
@@ -200,37 +200,37 @@
           "id": "Monday",
           "count": 12,
           "name": "Monday",
-          "pct": 75
+          "pct": 70
         },
         {
           "id": "Tuesday",
-          "count": 7,
+          "count": 8,
           "name": "Tuesday",
-          "pct": 43
+          "pct": 47
         },
         {
           "id": "Wednesday",
           "count": 13,
           "name": "Wednesday",
-          "pct": 81
+          "pct": 76
         },
         {
           "id": "Thursday",
-          "count": 10,
+          "count": 11,
           "name": "Thursday",
-          "pct": 62
+          "pct": 64
         },
         {
           "id": "Friday",
           "count": 5,
           "name": "Friday",
-          "pct": 31
+          "pct": 29
         },
         {
           "id": "Saturday",
           "count": 6,
           "name": "Saturday",
-          "pct": 37
+          "pct": 35
         }
       ]
     }

@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 333
+          "value": 336
         },
         {
           "title": "Games",
@@ -71,6 +71,12 @@
           "pct": 28
         },
         {
+          "id": "210295",
+          "count": 9,
+          "name": "Lightseekers",
+          "pct": 23
+        },
+        {
           "id": "37904",
           "count": 8,
           "name": "Formula D",
@@ -81,12 +87,6 @@
           "count": 7,
           "name": "Rick and Morty: Total Rickall Card Game",
           "pct": 17
-        },
-        {
-          "id": "210295",
-          "count": 7,
-          "name": "Lightseekers",
-          "pct": 17
         }
       ]
     },
@@ -96,7 +96,7 @@
       "items": [
         {
           "id": "James",
-          "count": 321,
+          "count": 324,
           "name": "James",
           "pct": 100
         },
@@ -104,11 +104,11 @@
           "id": "Nick",
           "count": 139,
           "name": "Nick",
-          "pct": 43
+          "pct": 42
         },
         {
           "id": "Emma",
-          "count": 106,
+          "count": 109,
           "name": "Emma",
           "pct": 33
         },
@@ -119,20 +119,20 @@
           "pct": 28
         },
         {
+          "id": "Ollie",
+          "count": 72,
+          "name": "Ollie",
+          "pct": 22
+        },
+        {
           "id": "Chris",
           "count": 72,
           "name": "Chris",
           "pct": 22
         },
         {
-          "id": "Ollie",
-          "count": 71,
-          "name": "Ollie",
-          "pct": 22
-        },
-        {
           "id": "Nate",
-          "count": 68,
+          "count": 69,
           "name": "Nate",
           "pct": 21
         },
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 116,
+          "count": 118,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,19 +170,19 @@
           "id": "3 Players",
           "count": 103,
           "name": "3 Players",
-          "pct": 88
+          "pct": 87
         },
         {
           "id": "4 Players",
-          "count": 93,
+          "count": 94,
           "name": "4 Players",
-          "pct": 80
+          "pct": 79
         },
         {
           "id": "5 Players",
           "count": 14,
           "name": "5 Players",
-          "pct": 12
+          "pct": 11
         },
         {
           "id": "1 Players",
@@ -204,9 +204,9 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 52,
+          "count": 53,
           "name": "Sunday",
-          "pct": 67
+          "pct": 68
         },
         {
           "id": "Monday",
@@ -216,9 +216,9 @@
         },
         {
           "id": "Tuesday",
-          "count": 60,
+          "count": 61,
           "name": "Tuesday",
-          "pct": 77
+          "pct": 79
         },
         {
           "id": "Wednesday",
@@ -228,9 +228,9 @@
         },
         {
           "id": "Thursday",
-          "count": 24,
+          "count": 25,
           "name": "Thursday",
-          "pct": 31
+          "pct": 32
         },
         {
           "id": "Friday",
