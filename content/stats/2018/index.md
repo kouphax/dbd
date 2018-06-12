@@ -16,11 +16,11 @@
         },
         {
           "title": "Plays",
-          "value": 72
+          "value": 76
         },
         {
           "title": "Games",
-          "value": 22
+          "value": 23
         }
       ]
     },
@@ -29,64 +29,64 @@
       "type": "bar",
       "items": [
         {
-          "id": "197455",
-          "count": 9,
-          "name": "Dice Heist",
+          "id": "210295",
+          "count": 12,
+          "name": "Lightseekers",
           "pct": 100
         },
         {
-          "id": "210295",
+          "id": "197455",
           "count": 9,
-          "name": "Lightseekers",
-          "pct": 100
+          "name": "Dice Heist",
+          "pct": 75
         },
         {
           "id": "198522",
           "count": 8,
           "name": "Archer: Once You Go Blackmail...",
-          "pct": 88
+          "pct": 66
         },
         {
           "id": "224037",
           "count": 7,
           "name": "Codenames Duet",
-          "pct": 77
+          "pct": 58
         },
         {
           "id": "227456",
           "count": 5,
           "name": "Escape the Dark Castle",
-          "pct": 55
+          "pct": 41
         },
         {
           "id": "231664",
           "count": 5,
           "name": "Fast Forward: FEAR",
-          "pct": 55
+          "pct": 41
         },
         {
           "id": "27225",
           "count": 3,
           "name": "Bananagrams",
-          "pct": 33
+          "pct": 25
         },
         {
           "id": "172242",
           "count": 3,
           "name": "Exploding Kittens: NSFW Deck",
-          "pct": 33
+          "pct": 25
         },
         {
           "id": "199561",
           "count": 3,
           "name": "Sagrada",
-          "pct": 33
+          "pct": 25
         },
         {
           "id": "230802",
           "count": 3,
           "name": "Azul",
-          "pct": 33
+          "pct": 25
         }
       ]
     },
@@ -96,57 +96,57 @@
       "items": [
         {
           "id": "James",
-          "count": 70,
+          "count": 74,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Emma",
-          "count": 50,
+          "count": 54,
           "name": "Emma",
-          "pct": 71
+          "pct": 72
         },
         {
           "id": "Ollie",
-          "count": 19,
+          "count": 21,
           "name": "Ollie",
-          "pct": 27
+          "pct": 28
         },
         {
           "id": "Bill",
           "count": 18,
           "name": "Bill",
-          "pct": 25
+          "pct": 24
+        },
+        {
+          "id": "Nate",
+          "count": 17,
+          "name": "Nate",
+          "pct": 22
         },
         {
           "id": "Chris",
           "count": 17,
           "name": "Chris",
-          "pct": 24
-        },
-        {
-          "id": "Nate",
-          "count": 15,
-          "name": "Nate",
-          "pct": 21
+          "pct": 22
         },
         {
           "id": "Nick",
           "count": 7,
           "name": "Nick",
-          "pct": 10
+          "pct": 9
         },
         {
           "id": "Jade",
           "count": 5,
           "name": "Jade",
-          "pct": 7
+          "pct": 6
         },
         {
           "id": "Ryan",
           "count": 5,
           "name": "Ryan",
-          "pct": 7
+          "pct": 6
         },
         {
           "id": "Sandra",
@@ -162,21 +162,21 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 30,
+          "count": 32,
           "name": "2 Players",
           "pct": 100
         },
         {
           "id": "4 Players",
-          "count": 23,
+          "count": 25,
           "name": "4 Players",
-          "pct": 76
+          "pct": 78
         },
         {
           "id": "3 Players",
           "count": 18,
           "name": "3 Players",
-          "pct": 60
+          "pct": 56
         },
         {
           "id": "5 Players",
@@ -198,9 +198,9 @@
         },
         {
           "id": "Monday",
-          "count": 12,
+          "count": 16,
           "name": "Monday",
-          "pct": 70
+          "pct": 94
         },
         {
           "id": "Tuesday",

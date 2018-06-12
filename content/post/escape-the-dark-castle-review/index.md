@@ -5,13 +5,14 @@ tags:
   - boardgame
   - review
 author: James
+draft: true
 ---
 
 When I was just a young lad...
 
 > sentimental music starts playing, the mists of time surround us and we drift slowly into the past
 
-When I was just a young lad, many years ago, my appendix ruptured and I had to get it removed.  Not exactly the most enjoyable experience in the world but it did leave me with a lot of time on my hands.  I was in hospital, off school, poison running through my veins and the fact a doctor had spent an hour or two rummaging around my insides not up to much physical activity. This meant there was a greater danger than my appendix - death by boredom.  At one point a friend of mine brought in their [Vectrex](https://en.wikipedia.org/wiki/Vectrex) (an old video games machine, it might have been steam powered or something I don't recall) for me to play but the promise of all day gaming was quickly dashed when the hospital didn't allow electronics to be used. Luckily this friend had a back up plan, actually come to think of it I never really appreciated how awesome this dude was... weird. Or maybe it was his mum making him do it... I do recall a certain reticence on his part handing over the Vectrex.  Either way - Thanks, wherever you are.  Instead of the gaming machine I was left with the backup plan of books.  Lots and lots of books.  So many books you'd think I was never leaving the hospital.  Among the books was a few of the [Fighting Fantasy](https://www.fightingfantasy.com/) adventure books.  These are the more involved Choose Your Own Adventure style book where you read a page, get presented with various actions, turn to the appropriate page based on the action you chose and quickly die at the hands of your terrible decisions.  Ultimately you are trying to get to the end without dying some horrific death which oddly applies to both these books and life in general.  There is a balance of story weaving, fantastic art and having your own agency (within the constraints the book set out) that adds extra depth to the experience and I lapped it up.  
+When I was just a young lad, many years ago, my appendix ruptured and I had to get it removed.  Not exactly the most enjoyable experience in the world but it did leave me with a lot of time on my hands.  I was in hospital, off school, poison running through my veins and the fact a doctor had spent an hour or two rummaging around my insides not up to much physical activity. This meant there was a greater danger than my appendix - death by boredom.  At one point a friend of mine brought in their [Vectrex](https://en.wikipedia.org/wiki/Vectrex) (an old video games machine, it might have been steam powered or something I don't recall) for me to play but the promise of all day gaming was quickly dashed when the hospital didn't allow electronics to be used. Luckily this friend had a back up plan, actually come to think of it I never really appreciated how awesome this dude was... weird. Or maybe it was his mum making him do it... I do recall a certain reticence on his part handing over the Vectrex.  Either way - Thanks, wherever you are.  Instead of the gaming machine I was left with the backup plan of books.  Lots and lots of books.  So many books you'd think I was never leaving the hospital.  Among the books was a few of the [Fighting Fantasy](https://www.fightingfantasy.com/) adventure books.  These are the more involved Choose Your Own Adventure style book where you read a page, get presented with various actions, turn to the appropriate page based on the action you chose and quickly die at the hands of your terrible decisions.  Ultimately you are trying to get to the end without dying some horrific death which oddly applies to both these books and life in general.  There is a balance of story weaving, fantastic art and having your own agency (within the constraints the book set out) that adds extra depth to the experience and I lapped it up.
 
 > snap back to present day, an old man writes on his laptop
 
@@ -36,7 +37,7 @@ Finally, you place the chapter dice and item cards out ready for use during the 
 
 {{< figure src="setup.jpg" >}}
 
-## Gameplay 
+## Gameplay
 
 You play the game by deciding who in the party is going to turn over the next chapter (this decision can be important as that person may have specific things applied to them), that person then takes the top chapter card reads it aloud, optionally, adding some theatrics to enhance the experience.  I'm serious about that though.  This game is all about creating atmosphere and telling a story it plays better when you go with it. It's like an RPG lite in that regard.  Once you've read the chapter card you'll invariably have some decisions to make - fight or run, buy or steal so on and so forth and all of these decisions are made as a team and the outcome decided by the dice.
 
@@ -68,7 +69,7 @@ The art style in [Escape the Dark Castle](https://www.boardgamegeek.com/boardgam
 
 ## Final Thoughts
 
-[Escape the Dark Castle](https://www.boardgamegeek.com/boardgame/227456/escape-dark-castle) does some things really well.  Not only does it ramp up the nostalgia and the atmosphere with the overall theme and art but it manages to introduce simple mechanics that are easy to play and limit any distractions that come with other more complicated mechanics keeping you right in the moment.  It's not a heavy weight game, you can bring it to the table and finish a game in 30 minutes, there is little setup involved and upskilling new players is a breeze.  
+[Escape the Dark Castle](https://www.boardgamegeek.com/boardgame/227456/escape-dark-castle) does some things really well.  Not only does it ramp up the nostalgia and the atmosphere with the overall theme and art but it manages to introduce simple mechanics that are easy to play and limit any distractions that come with other more complicated mechanics keeping you right in the moment.  It's not a heavy weight game, you can bring it to the table and finish a game in 30 minutes, there is little setup involved and upskilling new players is a breeze.
 
 If I had to make a criticism I'd say the luck factor may not be to everyone’s tastes - it can be frustrating if you're unlucky with the old dice but turnaround time for a new game means it's only a temporary set back and maybe next time, who knows, you'll claw your way out of that castle and get back to sewing some suits or whatever.  But also, luck aside, in my experience the game itself is probably going to kill you more times than you'll make it out.  It's a tough old game and knowing you've got to face your toughest challenge at the end really makes you cautious about rushing into battle.
 

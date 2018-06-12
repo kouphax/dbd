@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 336
+          "value": 340
         },
         {
           "title": "Games",
@@ -65,16 +65,16 @@
           "pct": 30
         },
         {
+          "id": "210295",
+          "count": 12,
+          "name": "Lightseekers",
+          "pct": 30
+        },
+        {
           "id": "197455",
           "count": 11,
           "name": "Dice Heist",
           "pct": 28
-        },
-        {
-          "id": "210295",
-          "count": 9,
-          "name": "Lightseekers",
-          "pct": 23
         },
         {
           "id": "37904",
@@ -96,7 +96,7 @@
       "items": [
         {
           "id": "James",
-          "count": 324,
+          "count": 328,
           "name": "James",
           "pct": 100
         },
@@ -108,9 +108,9 @@
         },
         {
           "id": "Emma",
-          "count": 109,
+          "count": 113,
           "name": "Emma",
-          "pct": 33
+          "pct": 34
         },
         {
           "id": "Bill",
@@ -120,7 +120,7 @@
         },
         {
           "id": "Ollie",
-          "count": 72,
+          "count": 74,
           "name": "Ollie",
           "pct": 22
         },
@@ -128,11 +128,11 @@
           "id": "Chris",
           "count": 72,
           "name": "Chris",
-          "pct": 22
+          "pct": 21
         },
         {
           "id": "Nate",
-          "count": 69,
+          "count": 71,
           "name": "Nate",
           "pct": 21
         },
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 118,
+          "count": 120,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,13 +170,13 @@
           "id": "3 Players",
           "count": 103,
           "name": "3 Players",
-          "pct": 87
+          "pct": 85
         },
         {
           "id": "4 Players",
-          "count": 94,
+          "count": 96,
           "name": "4 Players",
-          "pct": 79
+          "pct": 80
         },
         {
           "id": "5 Players",
@@ -206,11 +206,11 @@
           "id": "Sunday",
           "count": 53,
           "name": "Sunday",
-          "pct": 68
+          "pct": 65
         },
         {
           "id": "Monday",
-          "count": 77,
+          "count": 81,
           "name": "Monday",
           "pct": 100
         },
@@ -218,31 +218,31 @@
           "id": "Tuesday",
           "count": 61,
           "name": "Tuesday",
-          "pct": 79
+          "pct": 75
         },
         {
           "id": "Wednesday",
           "count": 41,
           "name": "Wednesday",
-          "pct": 53
+          "pct": 50
         },
         {
           "id": "Thursday",
           "count": 25,
           "name": "Thursday",
-          "pct": 32
+          "pct": 30
         },
         {
           "id": "Friday",
           "count": 22,
           "name": "Friday",
-          "pct": 28
+          "pct": 27
         },
         {
           "id": "Saturday",
           "count": 57,
           "name": "Saturday",
-          "pct": 74
+          "pct": 70
         }
       ]
     }
