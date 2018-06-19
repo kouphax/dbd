@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 340
+          "value": 349
         },
         {
           "title": "Games",
@@ -53,6 +53,12 @@
           "pct": 46
         },
         {
+          "id": "210295",
+          "count": 15,
+          "name": "Lightseekers",
+          "pct": 38
+        },
+        {
           "id": "172242",
           "count": 13,
           "name": "Exploding Kittens: NSFW Deck",
@@ -62,12 +68,6 @@
           "id": "192074",
           "count": 12,
           "name": "Odin's Ravens (second edition)",
-          "pct": 30
-        },
-        {
-          "id": "210295",
-          "count": 12,
-          "name": "Lightseekers",
           "pct": 30
         },
         {
@@ -83,9 +83,9 @@
           "pct": 20
         },
         {
-          "id": "194232",
+          "id": "63268",
           "count": 7,
-          "name": "Rick and Morty: Total Rickall Card Game",
+          "name": "Spot it!",
           "pct": 17
         }
       ]
@@ -96,7 +96,7 @@
       "items": [
         {
           "id": "James",
-          "count": 328,
+          "count": 332,
           "name": "James",
           "pct": 100
         },
@@ -104,36 +104,36 @@
           "id": "Nick",
           "count": 139,
           "name": "Nick",
-          "pct": 42
+          "pct": 41
         },
         {
           "id": "Emma",
-          "count": 113,
+          "count": 118,
           "name": "Emma",
-          "pct": 34
+          "pct": 35
         },
         {
           "id": "Bill",
           "count": 92,
           "name": "Bill",
-          "pct": 28
+          "pct": 27
         },
         {
           "id": "Ollie",
-          "count": 74,
+          "count": 77,
           "name": "Ollie",
+          "pct": 23
+        },
+        {
+          "id": "Nate",
+          "count": 75,
+          "name": "Nate",
           "pct": 22
         },
         {
           "id": "Chris",
           "count": 72,
           "name": "Chris",
-          "pct": 21
-        },
-        {
-          "id": "Nate",
-          "count": 71,
-          "name": "Nate",
           "pct": 21
         },
         {
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 120,
+          "count": 129,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,25 +170,25 @@
           "id": "3 Players",
           "count": 103,
           "name": "3 Players",
-          "pct": 85
+          "pct": 79
         },
         {
           "id": "4 Players",
           "count": 96,
           "name": "4 Players",
-          "pct": 80
+          "pct": 74
         },
         {
           "id": "5 Players",
           "count": 14,
           "name": "5 Players",
-          "pct": 11
+          "pct": 10
         },
         {
           "id": "1 Players",
           "count": 5,
           "name": "1 Players",
-          "pct": 4
+          "pct": 3
         },
         {
           "id": "6 Players",
@@ -204,9 +204,9 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 53,
+          "count": 59,
           "name": "Sunday",
-          "pct": 65
+          "pct": 72
         },
         {
           "id": "Monday",
@@ -234,9 +234,9 @@
         },
         {
           "id": "Friday",
-          "count": 22,
+          "count": 25,
           "name": "Friday",
-          "pct": 27
+          "pct": 30
         },
         {
           "id": "Saturday",

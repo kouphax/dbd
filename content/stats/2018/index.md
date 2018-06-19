@@ -16,11 +16,11 @@
         },
         {
           "title": "Plays",
-          "value": 76
+          "value": 85
         },
         {
           "title": "Games",
-          "value": 23
+          "value": 24
         }
       ]
     },
@@ -30,7 +30,7 @@
       "items": [
         {
           "id": "210295",
-          "count": 12,
+          "count": 15,
           "name": "Lightseekers",
           "pct": 100
         },
@@ -38,55 +38,55 @@
           "id": "197455",
           "count": 9,
           "name": "Dice Heist",
-          "pct": 75
+          "pct": 60
         },
         {
           "id": "198522",
           "count": 8,
           "name": "Archer: Once You Go Blackmail...",
-          "pct": 66
+          "pct": 53
         },
         {
           "id": "224037",
           "count": 7,
           "name": "Codenames Duet",
-          "pct": 58
+          "pct": 46
+        },
+        {
+          "id": "63268",
+          "count": 6,
+          "name": "Spot it!",
+          "pct": 40
         },
         {
           "id": "227456",
           "count": 5,
           "name": "Escape the Dark Castle",
-          "pct": 41
+          "pct": 33
         },
         {
           "id": "231664",
           "count": 5,
           "name": "Fast Forward: FEAR",
-          "pct": 41
+          "pct": 33
         },
         {
           "id": "27225",
           "count": 3,
           "name": "Bananagrams",
-          "pct": 25
+          "pct": 20
         },
         {
           "id": "172242",
           "count": 3,
           "name": "Exploding Kittens: NSFW Deck",
-          "pct": 25
+          "pct": 20
         },
         {
           "id": "199561",
           "count": 3,
           "name": "Sagrada",
-          "pct": 25
-        },
-        {
-          "id": "230802",
-          "count": 3,
-          "name": "Azul",
-          "pct": 25
+          "pct": 20
         }
       ]
     },
@@ -96,45 +96,45 @@
       "items": [
         {
           "id": "James",
-          "count": 74,
+          "count": 78,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Emma",
-          "count": 54,
+          "count": 59,
           "name": "Emma",
-          "pct": 72
+          "pct": 75
         },
         {
           "id": "Ollie",
-          "count": 21,
+          "count": 24,
           "name": "Ollie",
-          "pct": 28
+          "pct": 30
+        },
+        {
+          "id": "Nate",
+          "count": 21,
+          "name": "Nate",
+          "pct": 26
         },
         {
           "id": "Bill",
           "count": 18,
           "name": "Bill",
-          "pct": 24
-        },
-        {
-          "id": "Nate",
-          "count": 17,
-          "name": "Nate",
-          "pct": 22
+          "pct": 23
         },
         {
           "id": "Chris",
           "count": 17,
           "name": "Chris",
-          "pct": 22
+          "pct": 21
         },
         {
           "id": "Nick",
           "count": 7,
           "name": "Nick",
-          "pct": 9
+          "pct": 8
         },
         {
           "id": "Jade",
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 32,
+          "count": 41,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,19 +170,19 @@
           "id": "4 Players",
           "count": 25,
           "name": "4 Players",
-          "pct": 78
+          "pct": 60
         },
         {
           "id": "3 Players",
           "count": 18,
           "name": "3 Players",
-          "pct": 56
+          "pct": 43
         },
         {
           "id": "5 Players",
           "count": 1,
           "name": "5 Players",
-          "pct": 3
+          "pct": 2
         }
       ]
     },
@@ -192,7 +192,7 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 17,
+          "count": 23,
           "name": "Sunday",
           "pct": 100
         },
@@ -200,37 +200,37 @@
           "id": "Monday",
           "count": 16,
           "name": "Monday",
-          "pct": 94
+          "pct": 69
         },
         {
           "id": "Tuesday",
           "count": 8,
           "name": "Tuesday",
-          "pct": 47
+          "pct": 34
         },
         {
           "id": "Wednesday",
           "count": 13,
           "name": "Wednesday",
-          "pct": 76
+          "pct": 56
         },
         {
           "id": "Thursday",
           "count": 11,
           "name": "Thursday",
-          "pct": 64
+          "pct": 47
         },
         {
           "id": "Friday",
-          "count": 5,
+          "count": 8,
           "name": "Friday",
-          "pct": 29
+          "pct": 34
         },
         {
           "id": "Saturday",
           "count": 6,
           "name": "Saturday",
-          "pct": 35
+          "pct": 26
         }
       ]
     }
