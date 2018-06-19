@@ -48,10 +48,10 @@ paginate = 30
     url = "/plays/"
     weight = 4
 
-[[menu.main]]
-    name = "Stats"
-    url = "/stats/"
-    weight = 4
+#[[menu.main]]
+#    name = "Stats"
+#    url = "/stats/"
+#    weight = 4
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
