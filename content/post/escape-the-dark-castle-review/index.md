@@ -1,6 +1,6 @@
 ---
 title: "Escape the Dark Castle Review"
-date: "2018-06-10"
+date: "2018-06-20"
 tags:
   - boardgame
   - review
