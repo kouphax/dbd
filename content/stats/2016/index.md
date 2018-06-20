@@ -12,15 +12,15 @@
       "items": [
         {
           "title": "H-Index",
-          "value": 3
+          "value": 4
         },
         {
           "title": "Plays",
-          "value": 61
+          "value": 66
         },
         {
           "title": "Games",
-          "value": 24
+          "value": 26
         }
       ]
     },
@@ -48,9 +48,15 @@
         },
         {
           "id": "43443",
-          "count": 3,
+          "count": 4,
           "name": "Castle Panic",
-          "pct": 20
+          "pct": 26
+        },
+        {
+          "id": "172225",
+          "count": 4,
+          "name": "Exploding Kittens",
+          "pct": 26
         },
         {
           "id": "93688",
@@ -62,12 +68,6 @@
           "id": "109732",
           "count": 3,
           "name": "Three Little Pigs",
-          "pct": 20
-        },
-        {
-          "id": "172225",
-          "count": 3,
-          "name": "Exploding Kittens",
           "pct": 20
         },
         {
@@ -96,27 +96,27 @@
       "items": [
         {
           "id": "James",
-          "count": 52,
+          "count": 57,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Nate",
-          "count": 30,
+          "count": 33,
           "name": "Nate",
           "pct": 57
         },
         {
           "id": "Ollie",
-          "count": 27,
+          "count": 29,
           "name": "Ollie",
-          "pct": 51
+          "pct": 50
         },
         {
           "id": "Emma",
-          "count": 24,
+          "count": 26,
           "name": "Emma",
-          "pct": 46
+          "pct": 45
         },
         {
           "id": "Flo",
@@ -126,15 +126,15 @@
         },
         {
           "id": "Becky",
-          "count": 2,
+          "count": 3,
           "name": "Becky",
-          "pct": 3
+          "pct": 5
         },
         {
           "id": "Sandra",
-          "count": 2,
+          "count": 3,
           "name": "Sandra",
-          "pct": 3
+          "pct": 5
         },
         {
           "id": "Ryan",
@@ -150,27 +150,27 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 41,
+          "count": 44,
           "name": "2 Players",
           "pct": 100
         },
         {
           "id": "4 Players",
-          "count": 8,
+          "count": 10,
           "name": "4 Players",
-          "pct": 19
+          "pct": 22
         },
         {
           "id": "3 Players",
           "count": 6,
           "name": "3 Players",
-          "pct": 14
+          "pct": 13
         },
         {
           "id": "1 Players",
           "count": 5,
           "name": "1 Players",
-          "pct": 12
+          "pct": 11
         },
         {
           "id": "5 Players",
@@ -186,45 +186,45 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 18,
+          "count": 21,
           "name": "Sunday",
           "pct": 100
         },
         {
           "id": "Monday",
-          "count": 9,
+          "count": 10,
           "name": "Monday",
-          "pct": 50
+          "pct": 47
         },
         {
           "id": "Tuesday",
           "count": 3,
           "name": "Tuesday",
-          "pct": 16
+          "pct": 14
         },
         {
           "id": "Wednesday",
           "count": 7,
           "name": "Wednesday",
-          "pct": 38
+          "pct": 33
         },
         {
           "id": "Thursday",
           "count": 4,
           "name": "Thursday",
-          "pct": 22
+          "pct": 19
         },
         {
           "id": "Friday",
           "count": 12,
           "name": "Friday",
-          "pct": 66
+          "pct": 57
         },
         {
           "id": "Saturday",
-          "count": 8,
+          "count": 9,
           "name": "Saturday",
-          "pct": 44
+          "pct": 42
         }
       ]
     }

@@ -12,15 +12,15 @@
       "items": [
         {
           "title": "H-Index",
-          "value": 8
+          "value": 9
         },
         {
           "title": "Plays",
-          "value": 349
+          "value": 373
         },
         {
           "title": "Games",
-          "value": 74
+          "value": 77
         }
       ]
     },
@@ -41,28 +41,34 @@
           "pct": 76
         },
         {
+          "id": "12616",
+          "count": 21,
+          "name": "Zingo!",
+          "pct": 53
+        },
+        {
           "id": "198522",
           "count": 20,
           "name": "Archer: Once You Go Blackmail...",
           "pct": 51
         },
         {
-          "id": "12616",
-          "count": 18,
-          "name": "Zingo!",
-          "pct": 46
-        },
-        {
           "id": "210295",
-          "count": 15,
+          "count": 17,
           "name": "Lightseekers",
-          "pct": 38
+          "pct": 43
         },
         {
           "id": "172242",
           "count": 13,
           "name": "Exploding Kittens: NSFW Deck",
           "pct": 33
+        },
+        {
+          "id": "63268",
+          "count": 12,
+          "name": "Spot it!",
+          "pct": 30
         },
         {
           "id": "192074",
@@ -81,12 +87,6 @@
           "count": 8,
           "name": "Formula D",
           "pct": 20
-        },
-        {
-          "id": "63268",
-          "count": 7,
-          "name": "Spot it!",
-          "pct": 17
         }
       ]
     },
@@ -96,63 +96,63 @@
       "items": [
         {
           "id": "James",
-          "count": 332,
+          "count": 354,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Nick",
-          "count": 139,
+          "count": 141,
           "name": "Nick",
-          "pct": 41
+          "pct": 39
         },
         {
           "id": "Emma",
-          "count": 118,
+          "count": 125,
           "name": "Emma",
           "pct": 35
         },
         {
           "id": "Bill",
-          "count": 92,
+          "count": 94,
           "name": "Bill",
-          "pct": 27
+          "pct": 26
         },
         {
           "id": "Ollie",
-          "count": 77,
+          "count": 83,
           "name": "Ollie",
           "pct": 23
         },
         {
           "id": "Nate",
-          "count": 75,
+          "count": 83,
           "name": "Nate",
-          "pct": 22
+          "pct": 23
         },
         {
           "id": "Chris",
           "count": 72,
           "name": "Chris",
-          "pct": 21
+          "pct": 20
         },
         {
           "id": "Sandra",
-          "count": 31,
+          "count": 42,
           "name": "Sandra",
-          "pct": 9
+          "pct": 11
+        },
+        {
+          "id": "Flo",
+          "count": 24,
+          "name": "Flo",
+          "pct": 6
         },
         {
           "id": "Dave",
           "count": 24,
           "name": "Dave",
-          "pct": 7
-        },
-        {
-          "id": "Flo",
-          "count": 14,
-          "name": "Flo",
-          "pct": 4
+          "pct": 6
         }
       ]
     },
@@ -162,25 +162,25 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 129,
+          "count": 137,
           "name": "2 Players",
           "pct": 100
         },
         {
-          "id": "3 Players",
-          "count": 103,
-          "name": "3 Players",
-          "pct": 79
+          "id": "4 Players",
+          "count": 110,
+          "name": "4 Players",
+          "pct": 80
         },
         {
-          "id": "4 Players",
-          "count": 96,
-          "name": "4 Players",
-          "pct": 74
+          "id": "3 Players",
+          "count": 104,
+          "name": "3 Players",
+          "pct": 75
         },
         {
           "id": "5 Players",
-          "count": 14,
+          "count": 15,
           "name": "5 Players",
           "pct": 10
         },
@@ -204,21 +204,21 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 59,
+          "count": 62,
           "name": "Sunday",
-          "pct": 72
+          "pct": 75
         },
         {
           "id": "Monday",
-          "count": 81,
+          "count": 82,
           "name": "Monday",
           "pct": 100
         },
         {
           "id": "Tuesday",
-          "count": 61,
+          "count": 65,
           "name": "Tuesday",
-          "pct": 75
+          "pct": 79
         },
         {
           "id": "Wednesday",
@@ -228,21 +228,21 @@
         },
         {
           "id": "Thursday",
-          "count": 25,
+          "count": 26,
           "name": "Thursday",
-          "pct": 30
+          "pct": 31
         },
         {
           "id": "Friday",
-          "count": 25,
+          "count": 27,
           "name": "Friday",
-          "pct": 30
+          "pct": 32
         },
         {
           "id": "Saturday",
-          "count": 57,
+          "count": 70,
           "name": "Saturday",
-          "pct": 70
+          "pct": 85
         }
       ]
     }

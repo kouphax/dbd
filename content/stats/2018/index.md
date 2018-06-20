@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 85
+          "value": 87
         },
         {
           "title": "Games",
@@ -30,7 +30,7 @@
       "items": [
         {
           "id": "210295",
-          "count": 15,
+          "count": 17,
           "name": "Lightseekers",
           "pct": 100
         },
@@ -38,55 +38,55 @@
           "id": "197455",
           "count": 9,
           "name": "Dice Heist",
-          "pct": 60
+          "pct": 52
         },
         {
           "id": "198522",
           "count": 8,
           "name": "Archer: Once You Go Blackmail...",
-          "pct": 53
+          "pct": 47
         },
         {
           "id": "224037",
           "count": 7,
           "name": "Codenames Duet",
-          "pct": 46
+          "pct": 41
         },
         {
           "id": "63268",
           "count": 6,
           "name": "Spot it!",
-          "pct": 40
+          "pct": 35
         },
         {
           "id": "227456",
           "count": 5,
           "name": "Escape the Dark Castle",
-          "pct": 33
+          "pct": 29
         },
         {
           "id": "231664",
           "count": 5,
           "name": "Fast Forward: FEAR",
-          "pct": 33
+          "pct": 29
         },
         {
           "id": "27225",
           "count": 3,
           "name": "Bananagrams",
-          "pct": 20
+          "pct": 17
         },
         {
           "id": "172242",
           "count": 3,
           "name": "Exploding Kittens: NSFW Deck",
-          "pct": 20
+          "pct": 17
         },
         {
           "id": "199561",
           "count": 3,
           "name": "Sagrada",
-          "pct": 20
+          "pct": 17
         }
       ]
     },
@@ -108,15 +108,15 @@
         },
         {
           "id": "Ollie",
-          "count": 24,
+          "count": 26,
           "name": "Ollie",
-          "pct": 30
+          "pct": 33
         },
         {
           "id": "Nate",
-          "count": 21,
+          "count": 23,
           "name": "Nate",
-          "pct": 26
+          "pct": 29
         },
         {
           "id": "Bill",
@@ -162,7 +162,7 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 41,
+          "count": 43,
           "name": "2 Players",
           "pct": 100
         },
@@ -170,13 +170,13 @@
           "id": "4 Players",
           "count": 25,
           "name": "4 Players",
-          "pct": 60
+          "pct": 58
         },
         {
           "id": "3 Players",
           "count": 18,
           "name": "3 Players",
-          "pct": 43
+          "pct": 41
         },
         {
           "id": "5 Players",
@@ -204,9 +204,9 @@
         },
         {
           "id": "Tuesday",
-          "count": 8,
+          "count": 10,
           "name": "Tuesday",
-          "pct": 34
+          "pct": 43
         },
         {
           "id": "Wednesday",
