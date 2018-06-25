@@ -16,7 +16,7 @@
         },
         {
           "title": "Plays",
-          "value": 373
+          "value": 378
         },
         {
           "title": "Games",
@@ -54,9 +54,9 @@
         },
         {
           "id": "210295",
-          "count": 17,
+          "count": 20,
           "name": "Lightseekers",
-          "pct": 43
+          "pct": 51
         },
         {
           "id": "172242",
@@ -78,9 +78,9 @@
         },
         {
           "id": "197455",
-          "count": 11,
+          "count": 12,
           "name": "Dice Heist",
-          "pct": 28
+          "pct": 30
         },
         {
           "id": "37904",
@@ -96,7 +96,7 @@
       "items": [
         {
           "id": "James",
-          "count": 354,
+          "count": 359,
           "name": "James",
           "pct": 100
         },
@@ -108,7 +108,7 @@
         },
         {
           "id": "Emma",
-          "count": 125,
+          "count": 127,
           "name": "Emma",
           "pct": 35
         },
@@ -119,15 +119,15 @@
           "pct": 26
         },
         {
-          "id": "Ollie",
-          "count": 83,
-          "name": "Ollie",
+          "id": "Nate",
+          "count": 85,
+          "name": "Nate",
           "pct": 23
         },
         {
-          "id": "Nate",
-          "count": 83,
-          "name": "Nate",
+          "id": "Ollie",
+          "count": 85,
+          "name": "Ollie",
           "pct": 23
         },
         {
@@ -162,19 +162,19 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 137,
+          "count": 139,
           "name": "2 Players",
           "pct": 100
         },
         {
           "id": "4 Players",
-          "count": 110,
+          "count": 112,
           "name": "4 Players",
           "pct": 80
         },
         {
           "id": "3 Players",
-          "count": 104,
+          "count": 105,
           "name": "3 Players",
           "pct": 75
         },
@@ -204,9 +204,9 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 62,
+          "count": 64,
           "name": "Sunday",
-          "pct": 75
+          "pct": 78
         },
         {
           "id": "Monday",
@@ -222,9 +222,9 @@
         },
         {
           "id": "Wednesday",
-          "count": 41,
+          "count": 42,
           "name": "Wednesday",
-          "pct": 50
+          "pct": 51
         },
         {
           "id": "Thursday",
@@ -234,9 +234,9 @@
         },
         {
           "id": "Friday",
-          "count": 27,
+          "count": 29,
           "name": "Friday",
-          "pct": 32
+          "pct": 35
         },
         {
           "id": "Saturday",
