@@ -49,7 +49,7 @@
         {
           "id": "192074",
           "count": 10,
-          "name": "Odin's Ravens (second edition)",
+          "name": "Odin's Ravens (Second Edition)",
           "pct": 25
         },
         {
