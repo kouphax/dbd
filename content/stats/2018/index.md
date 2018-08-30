@@ -16,11 +16,11 @@
         },
         {
           "title": "Plays",
-          "value": 108
+          "value": 121
         },
         {
           "title": "Games",
-          "value": 29
+          "value": 32
         }
       ]
     },
@@ -30,63 +30,63 @@
       "items": [
         {
           "id": "210295",
-          "count": 25,
+          "count": 29,
           "name": "Lightseekers",
           "pct": 100
         },
         {
           "id": "197455",
-          "count": 10,
+          "count": 14,
           "name": "Dice Heist",
-          "pct": 40
+          "pct": 48
         },
         {
           "id": "231664",
           "count": 9,
           "name": "Fast Forward: FEAR",
-          "pct": 36
+          "pct": 31
         },
         {
           "id": "198522",
           "count": 8,
           "name": "Archer: Once You Go Blackmail...",
-          "pct": 32
+          "pct": 27
         },
         {
           "id": "224037",
           "count": 7,
           "name": "Codenames Duet",
-          "pct": 28
+          "pct": 24
         },
         {
           "id": "63268",
           "count": 6,
           "name": "Spot it!",
-          "pct": 24
+          "pct": 20
         },
         {
           "id": "227456",
           "count": 5,
           "name": "Escape the Dark Castle",
-          "pct": 20
+          "pct": 17
         },
         {
           "id": "199561",
           "count": 4,
           "name": "Sagrada",
-          "pct": 16
+          "pct": 13
         },
         {
           "id": "27225",
           "count": 3,
           "name": "Bananagrams",
-          "pct": 12
+          "pct": 10
         },
         {
-          "id": "172242",
+          "id": "143741",
           "count": 3,
-          "name": "Exploding Kittens: NSFW Deck",
-          "pct": 12
+          "name": "BANG! The Dice Game",
+          "pct": 10
         }
       ]
     },
@@ -96,63 +96,63 @@
       "items": [
         {
           "id": "James",
-          "count": 99,
+          "count": 110,
           "name": "James",
           "pct": 100
         },
         {
           "id": "Emma",
-          "count": 73,
+          "count": 77,
           "name": "Emma",
-          "pct": 73
+          "pct": 70
         },
         {
           "id": "Ollie",
-          "count": 32,
+          "count": 38,
           "name": "Ollie",
-          "pct": 32
+          "pct": 34
         },
         {
           "id": "Nate",
-          "count": 30,
+          "count": 36,
           "name": "Nate",
-          "pct": 30
+          "pct": 32
         },
         {
           "id": "Bill",
-          "count": 18,
+          "count": 22,
           "name": "Bill",
-          "pct": 18
+          "pct": 20
         },
         {
           "id": "Chris",
-          "count": 17,
+          "count": 18,
           "name": "Chris",
-          "pct": 17
+          "pct": 16
         },
         {
           "id": "Nick",
-          "count": 7,
+          "count": 11,
           "name": "Nick",
-          "pct": 7
+          "pct": 10
         },
         {
           "id": "Jade",
           "count": 5,
           "name": "Jade",
-          "pct": 5
+          "pct": 4
         },
         {
           "id": "Ryan",
           "count": 5,
           "name": "Ryan",
-          "pct": 5
+          "pct": 4
         },
         {
-          "id": "Sandra",
+          "id": "Dave",
           "count": 4,
-          "name": "Sandra",
-          "pct": 4
+          "name": "Dave",
+          "pct": 3
         }
       ]
     },
@@ -162,33 +162,33 @@
       "items": [
         {
           "id": "2 Players",
-          "count": 57,
+          "count": 61,
           "name": "2 Players",
           "pct": 100
         },
         {
           "id": "4 Players",
-          "count": 30,
+          "count": 35,
           "name": "4 Players",
-          "pct": 52
+          "pct": 57
         },
         {
           "id": "3 Players",
-          "count": 19,
+          "count": 21,
           "name": "3 Players",
-          "pct": 33
-        },
-        {
-          "id": "1 Players",
-          "count": 1,
-          "name": "1 Players",
-          "pct": 1
+          "pct": 34
         },
         {
           "id": "5 Players",
-          "count": 1,
+          "count": 2,
           "name": "5 Players",
-          "pct": 1
+          "pct": 3
+        },
+        {
+          "id": "1 Players",
+          "count": 2,
+          "name": "1 Players",
+          "pct": 3
         }
       ]
     },
@@ -198,43 +198,43 @@
       "items": [
         {
           "id": "Sunday",
-          "count": 33,
+          "count": 36,
           "name": "Sunday",
           "pct": 100
         },
         {
           "id": "Monday",
-          "count": 17,
+          "count": 19,
           "name": "Monday",
-          "pct": 51
+          "pct": 52
         },
         {
           "id": "Tuesday",
           "count": 11,
           "name": "Tuesday",
-          "pct": 33
+          "pct": 30
         },
         {
           "id": "Wednesday",
-          "count": 14,
+          "count": 18,
           "name": "Wednesday",
-          "pct": 42
+          "pct": 50
         },
         {
           "id": "Thursday",
-          "count": 12,
+          "count": 13,
           "name": "Thursday",
           "pct": 36
         },
         {
           "id": "Friday",
-          "count": 12,
+          "count": 14,
           "name": "Friday",
-          "pct": 36
+          "pct": 38
         },
         {
           "id": "Saturday",
-          "count": 9,
+          "count": 10,
           "name": "Saturday",
           "pct": 27
         }
