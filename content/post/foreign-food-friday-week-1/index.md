@@ -4,7 +4,7 @@ date: "2018-06-19"
 tags:
   - food
 author: Emma
-draft: false
+draft: true
 ---
 
 A post about meal planning!  How exciting!  I’m kidding around… I am only posting about ONE night of the week… Foreign Food Friday (yes I’m all about alliteration when it comes to a themed meal plan night!).  I started this mainly because I was getting so insanely bored with the weekly meal planning and drudgery of grocery shopping.  Now we have shaken things up with Meat Monday (meatless wasn’t fun), Taco Tuesday, Whatever Wednesday (we need to eat quick because Wednesday is a busy evening), Tried and Tested Thursday, Foreign Food Friday, Seafood Saturday and Slow Cook Sunday.
